@@ -1,3 +1,35 @@
 body {
     background-color: aqua;
 }
+header {
+    background-color: aquamarine;
+
+}
+header > img {
+    background-color: red
+    
+
+}
+
+div {
+    background-color: rosybrown;
+
+}
+    h1 {
+
+    }
+    h2 {
+
+    }
+
+    nav {
+        background-color: wheat;
+
+    }
+        p { background-color: teal;
+
+        }
+        a {
+
+        }
+img
