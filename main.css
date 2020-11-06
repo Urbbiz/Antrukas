@@ -1,6 +1,7 @@
 body {
 display: inline-block;
- margin-left: 50px 
+ margin-left: 50px;
+ font-family: arial;
 }
 header {
    display: inline-block;
@@ -8,14 +9,10 @@ header {
    width: 100%;
    margin-top: 10px;
    margin-left: 3%;
-
-
 }
 header > img {
+    width: 150px;
     
-    
-    
-
 }
 
 div {
@@ -26,39 +23,30 @@ div {
     margin-top: 60px;
     margin-left: 7%;
     
-
 }
     h1 {
         margin: 0;
         font-size: 60px;
-        
-
+           
     }
     h2 {
         margin: 0;
         margin-top: 20px;
-        font-size: 45px;
-        
-
+        font-size: 30px;
     }
 
-    nav {
-       
-
-    }
+    
         p {
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             color: #4F4E4F;
             margin: 0;
             margin-top: 25px;
             margin-bottom:25px ;
 
-            
-
         }
         ul {
-            font-size: 20px;
+            font-size: 15px;
             font-weight: bold;
             color: #4F4E4F;
             padding-inline-start: 0;
@@ -69,20 +57,19 @@ div {
         list-style-type: none;
         }
         a {
+            font-style: arial;
             color: #54A3A7;
             font-weight: bold;
-            font-size: 20px;
-           
-
+            font-size: 15px;
         }
+    
+
 body >img {
     display: inline-block;
     float: right;
-    width: 350px;
+    width: 300px;
     height: 450px;
     margin: 0;
     margin-top: 60px;
     margin-right: 50px;
- 
-    
 }
