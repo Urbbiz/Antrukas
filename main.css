@@ -1,12 +1,13 @@
 body {
-
-   
+display: inline-block;
+margin-left: calc( (100% - 800px) / 2);
     background-color: aqua;
 }
 header {
    display: inline-block;
    float: left;
    width: 100%;
+   margin-top: 10px;
    margin-left: 1%;
     background-color: aquamarine;
 
@@ -23,7 +24,7 @@ div {
     display: inline-block;
     float: left;
     margin-top: 60px;
-    margin-left: 8%;
+    margin-left: calc( (100% - 800px) / 2);
     background-color: rosybrown;
 
 }
@@ -34,6 +35,7 @@ div {
 
     }
     h2 {
+        margin: 0;
         font-size: 45px;
         
 
@@ -54,11 +56,11 @@ div {
         }
 body >img {
     display: inline-block;
-    float: right;
-    
+    float: left;
+    width: 45%;
     height: 450px;
     margin: 0;
     margin-top: 60px;
-    margin-right: 5%;
+ 
     
 }
