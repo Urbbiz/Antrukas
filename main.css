@@ -1,20 +1,19 @@
 body {
 display: inline-block;
  margin-left: 50px 
-    background-color: aqua;
 }
 header {
    display: inline-block;
    float: left;
    width: 100%;
    margin-top: 10px;
-   margin-left: 1%;
-    background-color: aquamarine;
+   margin-left: 3%;
+
 
 }
 header > img {
     
-    background-color: red
+    
     
 
 }
@@ -25,17 +24,19 @@ div {
     float: left;
     margin: 0;
     margin-top: 60px;
+    margin-left: 7%;
     background-color: rosybrown;
 
 }
     h1 {
         margin: 0;
-        font-size: 55px;
+        font-size: 60px;
         
 
     }
     h2 {
         margin: 0;
+        margin-top: 10px;
         font-size: 45px;
         
 
@@ -49,8 +50,24 @@ div {
             font-size: 20px;
             font: bold;
             color: #6C6C6C;
+            margin: 0;
+            margin-top: 25px;
+            margin-bottom:25px ;
+
             
 
+        }
+        ul {
+            font-size: 20px;
+            font: bold;
+            color: #6C6C6C;
+            float: inline-start;
+            padding-inline-start: 0;
+            margin: 0;
+        }
+        li{
+        
+        list-style-type: none;
         }
         a {
            
