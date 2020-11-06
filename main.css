@@ -25,7 +25,7 @@ div {
     margin: 0;
     margin-top: 60px;
     margin-left: 7%;
-    background-color: rosybrown;
+    
 
 }
     h1 {
@@ -36,20 +36,20 @@ div {
     }
     h2 {
         margin: 0;
-        margin-top: 10px;
+        margin-top: 20px;
         font-size: 45px;
         
 
     }
 
     nav {
-        background-color: wheat;
+       
 
     }
         p {
             font-size: 20px;
-            font: bold;
-            color: #6C6C6C;
+            font-weight: bold;
+            color: #4F4E4F;
             margin: 0;
             margin-top: 25px;
             margin-bottom:25px ;
@@ -59,8 +59,8 @@ div {
         }
         ul {
             font-size: 20px;
-            font: bold;
-            color: #6C6C6C;
+            font-weight: bold;
+            color: #4F4E4F;
             padding-inline-start: 0;
             margin: 0;
         }
@@ -70,6 +70,8 @@ div {
         }
         a {
             color: #54A3A7;
+            font-weight: bold;
+            font-size: 20px;
            
 
         }
