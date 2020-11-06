@@ -1,6 +1,6 @@
 body {
 display: inline-block;
-margin-left: calc( (100% - 800px) / 2);
+ margin-left: 50px 
     background-color: aqua;
 }
 header {
@@ -23,8 +23,8 @@ div {
     width: 54%;
     display: inline-block;
     float: left;
+    margin: 0;
     margin-top: 60px;
-    margin-left: calc( (100% - 800px) / 2);
     background-color: rosybrown;
 
 }
@@ -42,12 +42,14 @@ div {
     }
 
     nav {
-        
         background-color: wheat;
 
     }
         p {
-             background-color: teal;
+            font-size: 20px;
+            font: bold;
+            color: #6C6C6C;
+            
 
         }
         a {
@@ -56,11 +58,12 @@ div {
         }
 body >img {
     display: inline-block;
-    float: left;
-    width: 45%;
+    float: right;
+    width: 350px;
     height: 450px;
     margin: 0;
     margin-top: 60px;
+    margin-right: 50px;
  
     
 }
